@@ -1,16 +1,22 @@
 body {
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  background-color: #f0e6ff;
+  background: linear-gradient(to bottom, #fce4ec, #e1bee7);
   color: #333;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #a78bfa;
+  background-color: #ba68c8;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
+  border-bottom: 5px dashed #fff;
+}
+
+header h1 {
+  font-size: 2.5em;
+  text-shadow: 2px 2px #8e24aa;
 }
 
 main {
@@ -20,20 +26,121 @@ main {
 
 img {
   max-width: 80%;
-  border-radius: 15px;
+  border-radius: 20px;
   margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 article {
-  background-color: #fff8dc;
-  padding: 20px;
-  border-radius: 10px;
+  background-color: #fff3e0;
+  padding: 25px;
+  border-radius: 15px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+article h2 {
+  color: #ff7043;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+video {
+  margin-top: 20px;
+  border: 5px solid #ffccbc;
+  border-radius: 10px;
 }
 
 footer {
   text-align: center;
-  padding: 10px;
-  background-color: #a78bfa;
+  padding: 15px;
+  background-color: #ba68c8;
   color: white;
+  font-size: 1.1em;
+  border-top: 5px dashed #fff;
+}
+a {
+  text-decoration: none;
+  color: #6a1b9a;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+a:hover {
+  color: #d81b60;
+  text-shadow: 1px 1px #fff;
+}
+article p {
+  margin: 15px 0;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(to bottom, #e1f5fe, #fce4ec);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+/* 🚀 Rocket Adventure Page Styles */
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(to bottom, #e1f5fe, #fce4ec);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  font-size: 1.1em;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+article h2 {
+  color: #ff6f00;
+  font-size: 2.2em;
+  text-shadow: 2px 2px #ffe0b2;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: '🛠️ ';
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 80%;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #ba68c8;
+  color: white;
+  font-size: 1.1em;
+  border-top: 5px dashed #fff;
+}
+footer p {
+  margin: 0;
+}
+.bottom-image {
+  max-width: 80%;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.bottom-image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
 }
